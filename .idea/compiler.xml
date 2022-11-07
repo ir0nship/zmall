@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zmall-admin" />
+        <module name="zmall-common" />
         <module name="zmall-mbg" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="zmall" options="-parameters" />
       <module name="zmall-admin" options="-parameters" />
+      <module name="zmall-common" options="-parameters" />
       <module name="zmall-mbg" options="-parameters" />
     </option>
   </component>
