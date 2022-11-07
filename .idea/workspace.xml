@@ -5,33 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e69e58bb-de3e-420d-9dbf-5e751b7bd8f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/MallAdminApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/controller/PmsBrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/dto/PmsBrandParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/service/PmsBrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/service/impl/PmsBrandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/validator/FlagValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/validator/FlagValidatorClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-common/src/main/java/com/zzq/zmall/common/api/CommonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-common/src/main/java/com/zzq/zmall/common/api/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-common/src/main/java/com/zzq/zmall/common/api/IErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-common/src/main/java/com/zzq/zmall/common/api/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-common/src/main/java/com/zzq/zmall/common/config/BaseSwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-common/src/main/java/com/zzq/zmall/common/domain/SwaggerProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-common/src/main/java/com/zzq/zmall/common/exception/ApiException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-common/src/main/java/com/zzq/zmall/common/exception/Asserts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-common/src/main/java/com/zzq/zmall/common/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-common/src/main/java/com/zzq/zmall/common/util/RequestUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zmall-admin/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-admin/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zmall-mbg/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-mbg/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zmall-mbg/src/main/java/com/zzq/zmall/mapper/CmsHelpCategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-mbg/src/main/java/com/zzq/zmall/mapper/CmsHelpCategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/MallAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/MallAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/config/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/config/MyBatisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmall-admin/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-admin/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmall-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmall-mbg/src/main/java/com/zzq/zmall/mapper/PmsBrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-mbg/src/main/java/com/zzq/zmall/mapper/PmsBrandMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +135,7 @@
       <updated>1667720888283</updated>
       <workItem from="1667720889985" duration="641000" />
       <workItem from="1667721548809" duration="2418000" />
-      <workItem from="1667808315385" duration="7326000" />
+      <workItem from="1667808315385" duration="9720000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1667721032209</created>
@@ -191,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667811046198</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="mbg-common-swagger">
+      <created>1667830941084</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667830941084</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +188,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="mbg" />
-    <option name="LAST_COMMIT_MESSAGE" value="mbg" />
+    <MESSAGE value="mbg-common-swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="mbg-common-swagger" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

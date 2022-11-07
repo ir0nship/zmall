@@ -3,7 +3,10 @@ package com.zzq.zmall.mapper;
 import com.zzq.zmall.model.PmsBrand;
 import com.zzq.zmall.model.PmsBrandExample;
 import java.util.List;
+
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+
 
 public interface PmsBrandMapper {
     long countByExample(PmsBrandExample example);

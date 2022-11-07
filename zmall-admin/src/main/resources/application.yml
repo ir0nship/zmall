@@ -15,6 +15,10 @@ mybatis:
   mapper-locations:
     - classpath:dao/*.xml
     - classpath*:com/**/mapper/*.xml
+management:
+  health:
+    redis:
+      enabled: false
 #
 #jwt:
 #  tokenHeader: Authorization #JWT存储的请求头
