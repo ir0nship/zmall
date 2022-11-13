@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e69e58bb-de3e-420d-9dbf-5e751b7bd8f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/zmall-common/src/main/java/com/zzq/zmall/common/config/BaseRedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-common/src/main/java/com/zzq/zmall/common/service/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-common/src/main/java/com/zzq/zmall/common/service/impl/RedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-portal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/MallPortalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/controller/UmsMemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/service/UmsMemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/service/impl/UmsMemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/MallAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/MallAdminApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/config/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/config/MyBatisConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zmall-admin/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-admin/src/main/resources/application-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zmall-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-admin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zmall-mbg/src/main/java/com/zzq/zmall/mapper/PmsBrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-mbg/src/main/java/com/zzq/zmall/mapper/PmsBrandMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/java_learning/zmall/zmall-admin/src/main/resources",
+    "last_opened_file_path": "D:/java_learning/zmall/zmall-portal/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,11 +83,12 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "fileTemplates",
-    "spring.configuration.checksum": "19cca3dcae6769284b87e624cfb6f1b1"
+    "spring.configuration.checksum": "b75de8e95621b00ce3fb1c409fd13b19"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_learning\zmall\zmall-portal\src\main\resources" />
       <recent name="D:\java_learning\zmall\zmall-admin\src\main\resources" />
     </key>
   </component>
@@ -87,7 +99,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MallAdminApplication">
+  <component name="RunManager" selected="Spring Boot.MallPortalApplication">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zzq.zmall.Generator" />
       <module name="zmall-mbg" />
@@ -114,8 +126,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MallPortalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zmall-portal" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzq.zmall.portal.MallPortalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Generator" />
+      <item itemvalue="Spring Boot.MallPortalApplication" />
       <item itemvalue="Spring Boot.MallAdminApplication" />
     </list>
     <recent_temporary>
@@ -135,7 +155,8 @@
       <updated>1667720888283</updated>
       <workItem from="1667720889985" duration="641000" />
       <workItem from="1667721548809" duration="2418000" />
-      <workItem from="1667808315385" duration="9720000" />
+      <workItem from="1667808315385" duration="9812000" />
+      <workItem from="1668349048343" duration="6836000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1667721032209</created>
@@ -179,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667830941084</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mbg-common-swagger">
+      <created>1667833194402</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667833194402</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +225,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="org.springframework.data.redis.RedisConnectionFailureException" package="org.springframework.data.redis" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

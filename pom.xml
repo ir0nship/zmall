@@ -7,6 +7,7 @@
         <module>zmall-admin</module>
         <module>zmall-mbg</module>
         <module>zmall-common</module>
+        <module>zmall-portal</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

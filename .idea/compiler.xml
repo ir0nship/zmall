@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="zmall-admin" />
         <module name="zmall-common" />
+        <module name="zmall-portal" />
         <module name="zmall-mbg" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="zmall-admin" options="-parameters" />
       <module name="zmall-common" options="-parameters" />
       <module name="zmall-mbg" options="-parameters" />
+      <module name="zmall-portal" options="-parameters" />
     </option>
   </component>
 </project>
