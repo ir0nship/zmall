@@ -8,6 +8,8 @@
         <module>zmall-mbg</module>
         <module>zmall-common</module>
         <module>zmall-portal</module>
+        <module>zmall-security</module>
+        <module>zmall-security</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -98,11 +100,12 @@
                 <version>${zmall-mbg.version}</version>
             </dependency>
             <!--mall安全模块-->
-<!--            <dependency>-->
-<!--                <groupId>com.zzq.zmall</groupId>-->
-<!--                <artifactId>zmall-security</artifactId>-->
-<!--                <version>${zmall-security.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+            <groupId>com.zzq.zmall</groupId>
+            <artifactId>zmall-security</artifactId>
+            <version>${zmall-security.version}</version>
+        </dependency>
+
             <!--MyBatis分页插件starter-->
             <dependency>
                 <groupId>com.github.pagehelper</groupId>

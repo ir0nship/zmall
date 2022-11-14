@@ -27,10 +27,10 @@
             <groupId>com.zzq.zmall</groupId>
             <artifactId>zmall-mbg</artifactId>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>com.zzq.zmall</groupId>-->
-<!--            <artifactId>zmall-security</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.zzq.zmall</groupId>
+            <artifactId>zmall-security</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.aliyun.oss</groupId>
             <artifactId>aliyun-sdk-oss</artifactId>

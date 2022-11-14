@@ -7,5 +7,7 @@
     <file url="file://$PROJECT_DIR$/zmall-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zmall-mbg/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zmall-portal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zmall-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../maven_repo/org/springframework/boot/spring-boot-starter-parent/2.7.5/src/main/resources" charset="UTF-8" />
   </component>
 </project>

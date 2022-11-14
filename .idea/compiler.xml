@@ -10,6 +10,7 @@
         <module name="zmall-admin" />
         <module name="zmall-common" />
         <module name="zmall-portal" />
+        <module name="zmall-security" />
         <module name="zmall-mbg" />
       </profile>
     </annotationProcessing>
@@ -21,6 +22,7 @@
       <module name="zmall-common" options="-parameters" />
       <module name="zmall-mbg" options="-parameters" />
       <module name="zmall-portal" options="-parameters" />
+      <module name="zmall-security" options="-parameters" />
     </option>
   </component>
 </project>

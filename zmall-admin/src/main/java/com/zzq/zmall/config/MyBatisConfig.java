@@ -1,7 +1,8 @@
 package com.zzq.zmall.config;
 
 import org.mybatis.spring.annotation.MapperScan;
-import org.mybatis.spring.annotation.MapperScans;
+//import tk.mybatis.spring.annotation.MapperScan;
+import org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
