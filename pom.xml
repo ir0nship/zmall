@@ -10,6 +10,7 @@
         <module>zmall-portal</module>
         <module>zmall-security</module>
         <module>zmall-security</module>
+        <module>zmall-search</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

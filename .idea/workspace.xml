@@ -5,49 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e69e58bb-de3e-420d-9dbf-5e751b7bd8f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/bo/AdminUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/config/MallSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/controller/UmsAdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/dao/UmsAdminRoleRelationDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/dao/UmsRoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/dto/UmsAdminLoginParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/dto/UmsAdminParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/dto/UpdateAdminPasswordParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/service/UmsAdminCacheService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/service/UmsAdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/service/UmsResourceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/service/UmsRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/service/impl/UmsAdminCacheServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/service/impl/UmsAdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/service/impl/UmsResourceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/service/impl/UmsRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/resources/dao/UmsAdminRoleRelationDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-admin/src/main/resources/dao/UmsRoleDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-security/src/main/java/com/zzq/zmall/security/component/DynamicAccessDecisionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-security/src/main/java/com/zzq/zmall/security/component/DynamicSecurityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-security/src/main/java/com/zzq/zmall/security/component/DynamicSecurityMetadataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-security/src/main/java/com/zzq/zmall/security/component/DynamicSecurityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-security/src/main/java/com/zzq/zmall/security/component/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-security/src/main/java/com/zzq/zmall/security/component/RestAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-security/src/main/java/com/zzq/zmall/security/component/RestfulAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-security/src/main/java/com/zzq/zmall/security/config/CommonSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-security/src/main/java/com/zzq/zmall/security/config/IgnoreUrlsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-security/src/main/java/com/zzq/zmall/security/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-security/src/main/java/com/zzq/zmall/security/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-security/src/main/java/com/zzq/zmall/security/util/JwtTokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-security/src/main/java/com/zzq/zmall/security/util/SpringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-search/src/main/java/com/zzq/zmall/search/MallSearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-search/src/main/java/com/zzq/zmall/search/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-search/src/main/java/com/zzq/zmall/search/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-search/src/main/java/com/zzq/zmall/search/controller/EsProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-search/src/main/java/com/zzq/zmall/search/dao/EsProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-search/src/main/java/com/zzq/zmall/search/domain/EsProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-search/src/main/java/com/zzq/zmall/search/domain/EsProductAttributeValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-search/src/main/java/com/zzq/zmall/search/domain/EsProductRelatedInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-search/src/main/java/com/zzq/zmall/search/repository/EsProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-search/src/main/java/com/zzq/zmall/search/service/EsProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-search/src/main/java/com/zzq/zmall/search/service/impl/EsProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-search/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-search/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-search/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-search/src/main/resources/dao/EsProductDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zmall-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/config/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-admin/src/main/java/com/zzq/zmall/config/MyBatisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zmall-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-admin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zmall-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-portal/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/controller/UmsMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/controller/DemoUmsMemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/service/UmsMemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/service/DemoUmsMemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/service/impl/UmsMemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/service/impl/DemoUmsMemberServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +46,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../maven_repo/org/springframework/security/spring-security-core/5.7.4/spring-security-core-5.7.4-sources.jar!/org/springframework/security/access/SecurityConfig.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -98,7 +78,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/java_learning/zmall/zmall-admin/src/main/resources/dao",
+    "last_opened_file_path": "D:/java_learning/zmall/zmall-search/src/main/resources/dao",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -106,22 +86,24 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15429688",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
-    "spring.configuration.checksum": "4e857f6c1ea01746574b9a73d587cfb8"
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "260629e6c1150e0c333becd4dc22b247"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_learning\zmall\zmall-search\src\main\resources\dao" />
+      <recent name="D:\java_learning\zmall\zmall-search\src\main\resources" />
       <recent name="D:\java_learning\zmall\zmall-admin\src\main\resources\dao" />
       <recent name="D:\java_learning\zmall\zmall-admin\src\main\java\com\zzq\zmall\dao" />
       <recent name="D:\java_learning\zmall\zmall-portal\src\main\resources" />
-      <recent name="D:\java_learning\zmall\zmall-admin\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zzq.zmall.search.controller" />
+      <recent name="com.zzq.zmall.search.dao" />
       <recent name="com.zzq.zmall.service.impl" />
       <recent name="com.zzq.zmall.service" />
       <recent name="com.zzq.zmall.dto" />
-      <recent name="com.zzq.zmall.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -131,7 +113,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MallAdminApplication">
+  <component name="RunManager" selected="Spring Boot.MallSearchApplication">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zzq.zmall.Generator" />
       <module name="zmall-mbg" />
@@ -165,13 +147,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MallSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zmall-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzq.zmall.search.MallSearchApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzq.zmall.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Generator" />
       <item itemvalue="Spring Boot.MallPortalApplication" />
+      <item itemvalue="Spring Boot.MallSearchApplication" />
       <item itemvalue="Spring Boot.MallAdminApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MallSearchApplication" />
         <item itemvalue="Spring Boot.MallAdminApplication" />
         <item itemvalue="Application.Generator" />
       </list>
@@ -192,7 +189,12 @@
       <workItem from="1667721548809" duration="2418000" />
       <workItem from="1667808315385" duration="9812000" />
       <workItem from="1668349048343" duration="6995000" />
-      <workItem from="1668429343134" duration="5387000" />
+      <workItem from="1668429343134" duration="6133000" />
+      <workItem from="1668496425174" duration="6965000" />
+      <workItem from="1668517958218" duration="4903000" />
+      <workItem from="1668604150706" duration="1352000" />
+      <workItem from="1668672400738" duration="144000" />
+      <workItem from="1668673127728" duration="5593000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1667721032209</created>
@@ -250,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668356265653</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="mbg-common-swagger-redisDemo-security">
+      <created>1668438745256</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668438745256</updated>
+    </task>
+    <task id="LOCAL-00010" summary="mbg-common-swagger-redisDemo-security-spring task">
+      <created>1668604889578</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668604889578</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +277,9 @@
     <MESSAGE value="mbg" />
     <MESSAGE value="mbg-common-swagger" />
     <MESSAGE value="mbg-common-swagger-redisDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="mbg-common-swagger-redisDemo" />
+    <MESSAGE value="mbg-common-swagger-redisDemo-security" />
+    <MESSAGE value="mbg-common-swagger-redisDemo-security-spring task" />
+    <option name="LAST_COMMIT_MESSAGE" value="mbg-common-swagger-redisDemo-security-spring task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -10,6 +10,7 @@
         <module name="zmall-admin" />
         <module name="zmall-common" />
         <module name="zmall-portal" />
+        <module name="zmall-search" />
         <module name="zmall-security" />
         <module name="zmall-mbg" />
       </profile>
@@ -22,6 +23,7 @@
       <module name="zmall-common" options="-parameters" />
       <module name="zmall-mbg" options="-parameters" />
       <module name="zmall-portal" options="-parameters" />
+      <module name="zmall-search" options="-parameters" />
       <module name="zmall-security" options="-parameters" />
     </option>
   </component>
