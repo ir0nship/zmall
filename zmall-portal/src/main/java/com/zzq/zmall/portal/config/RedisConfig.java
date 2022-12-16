@@ -11,8 +11,8 @@ import org.springframework.context.annotation.Configuration;
  * @version : [v1.0]
  * @createTime : [2022/11/14 0:05]
  */
-@EnableCaching
-@Configuration
-public class RedisConfig extends BaseRedisConfig {
-
-}
+//@EnableCaching
+//@Configuration
+//public class RedisConfig extends BaseRedisConfig {
+//
+//}
