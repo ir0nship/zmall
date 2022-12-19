@@ -37,6 +37,7 @@ secure:
       - /product/**
       - /brand/**
       - /member/readHistory/**
+      - /order/**
 
 # 自定义redis key
 redis:

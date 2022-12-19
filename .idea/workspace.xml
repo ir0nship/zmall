@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e69e58bb-de3e-420d-9dbf-5e751b7bd8f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/controller/MemberReadHistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/domain/MemberReadHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/repository/MemberReadHistoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/service/MemberReadHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/service/impl/MemberReadHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/component/CancelOrderReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/component/CancelOrderSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/config/RabbitMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/controller/OmsPortalOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/domain/OrderParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/domain/QueueEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/service/OmsPortalOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/service/OmsPortalOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/service/impl/OmsPortalOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-portal/src/main/java/com/zzq/zmall/portal/service/impl/OmsPortalOrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zmall-portal/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-portal/src/main/resources/application-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zmall-portal/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zmall-portal/src/main/resources/application.yml" afterDir="false" />
     </list>
@@ -24,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -67,12 +71,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/java_learning/zmall",
+    "last_opened_file_path": "D:/java_learning/mall",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15429688",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -188,7 +192,9 @@
       <workItem from="1668959861458" duration="18000" />
       <workItem from="1670164736596" duration="356000" />
       <workItem from="1671086697529" duration="608000" />
-      <workItem from="1671201352474" duration="2019000" />
+      <workItem from="1671201352474" duration="2205000" />
+      <workItem from="1671442089402" duration="64000" />
+      <workItem from="1671458794670" duration="973000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1667721032209</created>
@@ -267,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668698907456</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="mbg-common-swagger-redisDemo-security-spring task-elasticSearch-mongoDB">
+      <created>1671203501912</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671203501912</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +294,8 @@
     <MESSAGE value="mbg-common-swagger-redisDemo-security" />
     <MESSAGE value="mbg-common-swagger-redisDemo-security-spring task" />
     <MESSAGE value="mbg-common-swagger-redisDemo-security-spring task-elasticSearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="mbg-common-swagger-redisDemo-security-spring task-elasticSearch" />
+    <MESSAGE value="mbg-common-swagger-redisDemo-security-spring task-elasticSearch-mongoDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="mbg-common-swagger-redisDemo-security-spring task-elasticSearch-mongoDB" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
